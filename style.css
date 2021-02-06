@@ -1,0 +1,34 @@
+
+#heading{
+    color: goldenrod;
+    font-weight: 600;
+    
+    text-align: center;
+    text-decoration: underline;
+}
+#countries-container {
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}
+.countries{
+    border: 1px solid Aquamarine;
+    border-radius: 10px;
+    box-shadow: 5px 5px lightgray;
+    text-align: center;
+    background-color:Black;
+    padding: 10px;
+    margin: 10px;
+   
+}
+.C-Name{
+    color: tomato;
+}
+.C-capital{
+    color: SlateBlue;
+}
+.C-region{
+    color: Peru;
+}
+.C-population{
+    color: GoldenRod;
+}
